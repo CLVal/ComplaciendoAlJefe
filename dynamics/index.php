@@ -2,7 +2,7 @@
 
 $size = $_POST["size"];
 
-echo "<table border='2'>";
+echo "<table border='3'>";
 
 for ($i = 0; $i < $size; $i++) {
     echo "<tr>";
