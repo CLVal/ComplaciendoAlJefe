@@ -7,7 +7,7 @@ echo "<table border='2'>";
 for ($i = 0; $i < $size; $i++) {
     echo "<tr>";
 
-    for ($j = 0; $j < $size; $j++) {
+    for ($j = 0; $j < $size; $j = $j + 2) {
         if ($i % 2 === $j % 2) {
             echo "<td><img src='../assets/blanco.png'></td>";
         } else {
